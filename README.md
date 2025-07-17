@@ -5,7 +5,7 @@ clan: Macondo
 
 ## estructura del proyecto
 
-//bash
+```bash
 ├── CSS
 │   └── stylesPrueba.css
 ├── html
@@ -15,7 +15,7 @@ clan: Macondo
 │   │   └── roberto.png
 │   └── IndexPrueba.htm
 └── README.md
-
+```
 
 ## Descripción del proyecto y cómo ejecutarlo
 
