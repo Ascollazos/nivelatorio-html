@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: #171e4a;    
+}
+
+.logo {
+    height: 50px;
+}
+
+.image {
+    height: 54vh;
+    width: 100%;
+    background-image: url(//moodle.riwi.io/pluginfile.php/1/theme_academi/slide1image/1752303890/moodle_slide2.jpg);
+    background-size: cover;
+    background-color: black;
+    background-position: top;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.container_texto{
+    height: 54vh;
+    width: auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: white;
+    text-align: center;
+    
+}
+
+.presentacion{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.h1{
+    font-size: 3rem;
+}
+
+@media (max-width: 400px) {
+    .h1 {
+        font-size: 2rem;
+    }
+    .h2{
+        margin: 10px;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+}
+.h2 {
+    margin: 20px;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.parrafo{
+    padding: 0px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.parrafo_tu{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 50px;
+    padding: auto;
+    height: 10vh;
+    width: 33vh;
+    font-size: 1.5rem;
+    background-color: #171e4a;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+}
+
+@media (max-width: 400px){
+    .parrafo_tu{
+        font-size: 1.2rem;
+    }
+}
+
+main {
+    flex: 1;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 2;
+    gap: 40px;
+}
+
+.julia{
+    background-color: rgb(210, 213, 216);
+    padding: 2rem;
+    border-radius: 30px;
+    width: auto;
+    text-align: center;
+}
+
+.roberto{
+    background-color: rgb(210, 213, 216);
+    padding: 2rem;
+    border-radius: 30px;
+    width: auto;
+    text-align: center;
+}
+
+.no{
+    background-color: rgb(210, 213, 216);
+    padding: 2rem;
+    border-radius: 30px;
+    width: auto;
+    text-align: center;
+}
+
+:hover.julia{
+    background-color: rgb(106, 113, 121);
+}
+
+:hover.roberto{
+    background-color: rgb(106, 113, 121);
+}
+
+:hover.no{
+    background-color: rgb(106, 113, 121);
+}
+
+
+.img{
+    border-radius: 20px;
+    width: auto;
+    height: 25vh;
+}
+
+.titulo{
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #171e4a; 
+    font-family: "Ubuntu", sans-serif;
+}
+
+h3{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+li{
+    color: #fff;
+    margin: 10px;
+    margin-left: 20px;
+}
