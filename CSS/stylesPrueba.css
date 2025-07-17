@@ -99,24 +99,50 @@ main {
 
 .box{
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2;
     gap: 40px;
+}
+
+@media (max-width: 1150px){
+    .box{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 2;
+        gap: 10px;
+    }
+
+    .no{
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 740px){
+    .box{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 2;
+        gap: 40px;
+    }
+    .roberto{
+        margin-left: 70px;
+    }
 }
 
 .julia{
     background-color: rgb(210, 213, 216);
     padding: 2rem;
     border-radius: 30px;
-    width: auto;
+    width: 30vh;
     text-align: center;
+    margin-left: 70px;
 }
 
 .roberto{
     background-color: rgb(210, 213, 216);
     padding: 2rem;
     border-radius: 30px;
-    width: auto;
+    width: 30vh;
     text-align: center;
 }
 
@@ -124,8 +150,9 @@ main {
     background-color: rgb(210, 213, 216);
     padding: 2rem;
     border-radius: 30px;
-    width: auto;
+    width: 30vh;
     text-align: center;
+    margin-right: 70px;
 }
 
 :hover.julia{
